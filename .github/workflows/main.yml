@@ -8,10 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-python@v1
-      with: 
-       python-version: '3.x' # Version range or exact version of a Python version to use, using semvers version range syntax.
     - run: 
-        python test.py 
+        python3 test.py > stdout.txt 2> stderr.txt
     - name: failed test
       run: |
         line=$(head -n 1 stderr.txt )
