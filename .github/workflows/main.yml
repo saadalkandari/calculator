@@ -11,7 +11,7 @@ jobs:
       with: 
        python-version: '3.x' # Version range or exact version of a Python version to use, using semvers version range syntax.
     - run: 
-        python test.py > stdout.txt 2> stderr.txt
+        python test.py 
     - name: failed test
       run: |
         line=$(head -n 1 stderr.txt )
