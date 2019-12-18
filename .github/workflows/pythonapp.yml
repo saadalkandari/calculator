@@ -12,6 +12,7 @@ jobs:
     - name: Test with pytest
       run: python3 test.py > stdout.txt 2> stderr.txt
     - name: failed test
+      if: always()
       run: |
         line=$(head -n 1 stderr.txt )
         response=$(curl -u ${{ github.actor }}:${{ secrets.password }} https://api.github.com/repos/${{ github.repository }}/collaborators)
