@@ -1,5 +1,3 @@
-# Calculator
-
 ## Fork & Clone
 
 Repeating the same steps to fork and clone from the previous task, fork and clone [this repository](https://github.com/JoinCODED/calculator) in your `python` directory.
