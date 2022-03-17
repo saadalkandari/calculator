@@ -1,18 +1,12 @@
-# Treehouse Prerequisites:
+# Calculator
 
-Finish the following chapters/steps from [this course](https://teamtreehouse.com/library/python-basics-3) on treehouse:
-
-- Chapter "**Types and Branching**": Rest of the chapter after "**More Strings**". Up-to and including "**Comparing values**".
-
----
-
-# Fork & Clone
+## Fork & Clone
 
 Repeating the same steps to fork and clone from the previous task, fork and clone [this repository](https://github.com/JoinCODED/calculator) in your `python` directory.
 
 ---
 
-# Task 
+## Task 
 
 In this task you'll be creating a calculator. You'll ask the user for two numbers and the mathematical operation and then print the result of that operation.
 
