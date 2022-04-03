@@ -1,6 +1,6 @@
 ## Fork & Clone
 
-Repeat the same steps in the previous task to fork and clone this repository into you `python` directory: [this repository](https://github.com/JoinCODED/calculator).
+Repeat the same steps in the previous task to fork and clone this repository into your `python` directory: [this repository](https://github.com/JoinCODED/calculator).
 
 ---
 
@@ -25,6 +25,6 @@ In this example, the user inputs the first number `4`, the second number `6`, an
 	- If the user's inputs were not numbers, print to the user that the numbers were invalid. For example if the user enters letters instead of numbers. (Hint: [String methods](https://www.w3schools.com/python/python_ref_string.asp) can help.)
 	- If the operation the user entered was not any of the options (`+`, `-`, `*`, or `/`), print to the user that the operation is not valid.
 3. If the user entered valid numbers and a valid operation, perform the calculation and print it to the user.
-<!-- since the task includes a test file, it would be cool if we add another step that tells the student to test the task before pushing it  -->
-4. Add and commit `calculator.py`, then push to Github.
+4. Run the tests and make sure they pass by running the following command on macOS `python3 test.py` (`python test.py` on Windows)
+5. Add and commit `calculator.py`, then push to Github.
    
