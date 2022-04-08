@@ -9,19 +9,20 @@ def main():
 		print("Valid Input")
 	elif secondN.isdigit() == False :
 		print("Valid Input")
+    
 
-	if operation == "+" :
+	elif operation == "+" :
 		answer = int(firstN) + int(secondN)
-		print(answer)
+		print("answer is", answer)
 	elif operation == "-" :
 		answer = int(firstN) - int(secondN)
-		print(answer)
+		print("answer is", answer)
 	elif operation == "*" :
 		answer = int(firstN) * int(secondN)
-		print(answer)
+		print("answer is", answer)
 	elif operation == "/" :
 		answer = int(firstN) / int(secondN)
-		print(answer)
+		print("answer is", answer)
 	else:
 		print("Valid Operation")
 
